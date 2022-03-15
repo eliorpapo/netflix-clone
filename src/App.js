@@ -1,11 +1,13 @@
 import './App.css';
 import Banner from './cmps/Banner';
+import Nav from './cmps/Nav';
 import Row from './cmps/Row';
 import requests from './requests';
 
 function App() {
   return (
     <div className='app'>
+      <Nav />
       <Banner />
       <Row
         isLargeRow={true}
